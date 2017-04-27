@@ -45,8 +45,8 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
+  about: /about
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
@@ -306,8 +306,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true 
+  shortname: saberfans
   count: true
 
 # Hypercomments
@@ -338,7 +338,7 @@ changyan:
 ##  type: button
 
 # Share
-#jiathis:
+#jiathis: true
 # Warning: JiaThis does not support https.
 #add_this_id:
 
